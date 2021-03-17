@@ -1,0 +1,35 @@
+{
+	"expo": {
+		"name": "ModeSwift",
+		"slug": "ModeSwift",
+		"version": "1.0.2",
+		"orientation": "portrait",
+		"icon": "./assets/lasticon.png",
+		"splash": {
+			"image": "./assets/splash_figma.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#e9edf2"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.modeswiftTest.moneytransfer",
+			"buildNumber": "1.0.1"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#E9EDF2"
+			},
+			"package": "com.modeswiftTest.moneytransfer",
+			"versionCode": 7,
+			"permissions": []
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		}
+	}
+}
